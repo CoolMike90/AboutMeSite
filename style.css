@@ -6,7 +6,7 @@
 
 .masthead {
   padding: 6em 0;
-  background-image: url('https://images.unsplash.com/photo-1431184052543-809fa8cc9bd6?q=80&fm=jpg&s=37089dfa2c0456a04c3dd4440532c191');
+  background-image: url('mountain.jpg');
   background-size: cover;
   background-repeat: round;
   border-top: solid 10px #7E8AA2;
@@ -14,7 +14,7 @@
 
 .masthead-intro {
   margin-bottom: 0.1em;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   color: #FDEDE2;
   text-shadow: 1px 1px #7E8AA2;
@@ -22,8 +22,8 @@
 
 .masthead-heading {
   margin-top: -0.2em;
-  font-size: 75px;
-  font-family: lato, sans-serif;
+  font-size: 90px;
+  font-family: poiret-one, sans-serif;
   color: #FAEDE2;
   text-shadow: 3px 3px #7E8AA2;
 }
@@ -39,18 +39,18 @@
 }
 
 section h1{
- font-family: lato, sans-serif;
+ font-family: poiret-one, sans-serif;
  color: #91AA9D;
 }
 section h2{
   font-size: 17px;
-  font-family: lato, sans-serif;
+  font-family: poiret-one, sans-serif;
   font-weight: bold;
   color:#193441;
 }
 
 section p{
-  font-family: lato, sans-serif;
+  font-family: source-sans-pro, sans-serif;
   color: #3E606F;
   letter-spacing: 0.05em;
   margin: 2em 0 1em 0;
@@ -61,9 +61,9 @@ section p{
 
 footer{
   background-color:#3E606F;
-  padding: 4em 0;
+  padding: 6em 0;
   font-size: 17px;
-  font-family: lato, sans-serif;
+  font-family: source-sans-pro, sans-serif;
   color:#FDEDE2;
   background-size: cover;
   background-repeat: round;
@@ -72,7 +72,21 @@ footer{
 }
 
 a{
+  padding: 5px;
   color:#D1DBBD;
   text-decoration: none;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+   .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    footer{
+      font-size: 10px;
+      padding: 1em 1em 1em 1em ;
+    }
 }

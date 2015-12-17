@@ -38,6 +38,28 @@
   
 }
 
+.mastheadicon {
+  width: 150px;
+  left: 25px;
+  top: 10px;
+  position: absolute; 
+  list-style-type: none;
+}
+
+.mastheadicon ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mastheadicon li {
+  display: inline;
+}
+
+.mastheadicon img {
+  height: 25px;
+  width: 25px;
+}
+
 section h1{
  font-family: poiret-one, sans-serif;
  color: #91AA9D;

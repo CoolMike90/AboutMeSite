@@ -35,13 +35,14 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
+  border-top: solid 1px #3E606F;
   
 }
 
 .mastheadicon {
-  width: 150px;
-  left: 25px;
-  top: 10px;
+  width: 195px;
+  left: 41.5%;
+  top: 61.5%;
   position: absolute; 
   list-style-type: none;
 }
@@ -58,6 +59,7 @@
 .mastheadicon img {
   height: 25px;
   width: 25px;
+  padding: 5px;
 }
 
 section h1{
@@ -77,19 +79,15 @@ section p{
   letter-spacing: 0.05em;
   margin: 2em 0 1em 0;
 }
-.social > li {
-    display: inline-block;
-}
 
-footer{
+
+footer {
   background-color:#3E606F;
   padding: 6em 0;
   font-size: 17px;
   font-family: source-sans-pro, sans-serif;
   color:#FDEDE2;
-  background-size: cover;
   background-repeat: round;
-  letter-spacing: 0.05em;
  
 }
 
@@ -99,6 +97,7 @@ a{
   text-decoration: none;
   font-weight: bold;
 }
+
 
 @media only screen and (max-width: 500px) {
    .masthead {

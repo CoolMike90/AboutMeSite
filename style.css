@@ -1,6 +1,7 @@
 .masthead-heading,
 .masthead-intro,
-.mast-footer{
+.mast-footer,
+.portfolio{
   text-align: center;
 }
 
@@ -12,10 +13,6 @@
   border-top: solid 10px #7E8AA2;
 }
 
-.mastheadicon {
-  padding: 3em;
-  display: inline;
-}
 
 .masthead-intro {
   margin-bottom: 0.1em;
@@ -35,29 +32,23 @@
 
 .mastsec-intro,
 .mastsec-from,
-.mastsec-about{
+.mastsec-about  {
   max-width: 38em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-<<<<<<< Updated upstream
   border-top: solid 1px #3E606F;
   
-
 }
 
 .mastheadicon {
   width: 195px;
-  left: 41.5%;
-  top: 61.5%;
+  left: 41%;
+  top: 49%;
   position: absolute; 
   list-style-type: none;
 }
 
-.mastheadicon ul {
-  margin: 0;
-  padding: 0;
-}
 
 .mastheadicon li {
   display: inline;
@@ -67,6 +58,24 @@
   height: 25px;
   width: 25px;
   padding: 5px;
+}
+
+.portfolio {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  font-size: 25px;
+  display: inline;
+  
+}
+
+
+.portfolio img {
+  position: relative;
+  left: 12%;
+  height: 200px;
+  width: 300px;
 }
 
 section h1{
@@ -98,7 +107,7 @@ footer {
 
 }
 
-a{
+a {
   padding: 5px;
   color:#D1DBBD;
   text-decoration: none;

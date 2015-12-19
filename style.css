@@ -12,6 +12,11 @@
   border-top: solid 10px #7E8AA2;
 }
 
+.mastheadicon {
+  padding: 3em;
+  display: inline;
+}
+
 .masthead-intro {
   margin-bottom: 0.1em;
   font-size: 50px;
@@ -35,8 +40,10 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
+<<<<<<< Updated upstream
   border-top: solid 1px #3E606F;
   
+
 }
 
 .mastheadicon {
@@ -88,7 +95,7 @@ footer {
   font-family: source-sans-pro, sans-serif;
   color:#FDEDE2;
   background-repeat: round;
- 
+
 }
 
 a{
